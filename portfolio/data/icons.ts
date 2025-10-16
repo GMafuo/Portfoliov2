@@ -9,12 +9,9 @@ import {
 } from "react-icons/hi2";
 
 import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiDribbbleLine,
   RiGithubLine,
-  RiPinterestLine,
+  RiLinkedinLine,
+  RiMailLine,
 } from "react-icons/ri";
 
 import {
@@ -46,12 +43,10 @@ export const NAV_ICONS = {
 };
 
 export const SOCIAL_ICONS = {
-  youtube: RiYoutubeLine,
-  instagram: RiInstagramLine,
-  facebook: RiFacebookLine,
-  dribbble: RiDribbbleLine,
+  linkedin: RiLinkedinLine,
+  gmail: RiMailLine,
   github: RiGithubLine,
-  pinterest: RiPinterestLine,
+  
 };
 
 export const SERVICE_ICONS = {

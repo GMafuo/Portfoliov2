@@ -31,12 +31,9 @@ export const navItems = [
 
 // Réseaux sociaux
 export const socialLinks = [
-  { name: "YouTube", url: "https://youtube.com", icon: "youtube" },
-  { name: "Instagram", url: "https://instagram.com", icon: "instagram" },
-  { name: "Facebook", url: "https://facebook.com", icon: "facebook" },
-  { name: "Dribbble", url: "https://dribbble.com", icon: "dribbble" },
-  { name: "Pinterest", url: "https://pinterest.com", icon: "pinterest" },
-  { name: "Github", url: "https://github.com/", icon: "github" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/math%C3%A9o-girard-1179252b2/", icon: "linkedin" },
+  { name: "Gmail", url: "mailto:matheogirard@hotmail.com", icon: "gmail" },
+  { name: "Github", url: "https://github.com/GMafuo", icon: "github" },
 ];
 
 // Section héro
