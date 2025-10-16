@@ -1,11 +1,9 @@
-// Mappe des clés simples vers des icônes React afin de garder la data sérialisable
 import {
   HiHome,
-  HiUser,
-  HiViewColumns,
-  HiRectangleGroup,
-  HiChatBubbleBottomCenterText,
-  HiEnvelope,
+  HiAcademicCap,
+  HiBriefcase,
+  HiRectangleStack,
+  HiSparkles,
 } from "react-icons/hi2";
 
 import {
@@ -35,11 +33,10 @@ import { SiAdobephotoshop, SiAdobexd, SiFramer, SiNextdotjs } from "react-icons/
 
 export const NAV_ICONS = {
   home: HiHome,
-  about: HiUser,
-  work: HiViewColumns,
-  services: HiRectangleGroup,
-  testimonials: HiChatBubbleBottomCenterText,
-  contact: HiEnvelope,
+  formations: HiAcademicCap,
+  experience: HiBriefcase,
+  projets: HiRectangleStack,
+  interets: HiSparkles,
 };
 
 export const SOCIAL_ICONS = {

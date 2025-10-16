@@ -1,5 +1,3 @@
-// Configuration centrale du portfolio — modifiez ces valeurs pour personnaliser le site
-
 // Métadonnées du site
 export const siteMeta = {
   title: "Portfolio | Mathéo Girard",
@@ -12,31 +10,26 @@ export const siteMeta = {
   ogImage: "/og-image.png", // Optionnel: placez une image 1200x630 dans /public
 };
 
-// Ressources (logo, avatar, images réutilisées)
 export const assets = {
   logo: "/logo.png",
   avatar: "/avatar.png",
   roundedText: "/rounded-text.png",
 };
 
-// Navigation principale
 export const navItems = [
-  { name: "home", path: "/", icon: "home" },
-  { name: "about", path: "/about", icon: "about" },
-  { name: "services", path: "/services", icon: "services" },
-  { name: "work", path: "/work", icon: "work" },
-  { name: "testimonials", path: "/testimonials", icon: "testimonials" },
-  { name: "contact", path: "/contact", icon: "contact" },
+  { name: "accueil", path: "/", icon: "home" },
+  { name: "formations", path: "/formations", icon: "formations" },
+  { name: "expérience", path: "/experience", icon: "experience" },
+  { name: "projets", path: "/projets", icon: "projets" },
+  { name: "intérêts", path: "/interets", icon: "interets" },
 ];
 
-// Réseaux sociaux
 export const socialLinks = [
   { name: "LinkedIn", url: "https://www.linkedin.com/in/math%C3%A9o-girard-1179252b2/", icon: "linkedin" },
   { name: "Gmail", url: "mailto:matheogirard@hotmail.com", icon: "gmail" },
   { name: "Github", url: "https://github.com/GMafuo", icon: "github" },
 ];
 
-// Section héro
 export const hero = {
   title: "Je transforme vos idées en",
   highlight: "produits digitaux",
@@ -46,7 +39,6 @@ export const hero = {
   showParticles: true,
 };
 
-// Données "À propos"
 export const aboutCounters = {
   years: 5,
   clients: 30,
@@ -93,7 +85,6 @@ export const aboutData = [
   },
 ];
 
-// Services
 export const servicesData = [
   {
     icon: "crop",
@@ -127,7 +118,6 @@ export const servicesData = [
   },
 ];
 
-// Projets (thumbnails à placer dans /public)
 export const projects = [
   { title: "Projet A", image: "/thumb1.jpg", url: "https://example.com/a" },
   { title: "Projet B", image: "/thumb2.jpg", url: "https://example.com/b" },
@@ -139,7 +129,6 @@ export const projects = [
   { title: "Projet H", image: "/thumb4.jpg", url: "https://example.com/h" },
 ];
 
-// Témoignages (avatars à placer dans /public)
 export const testimonials = [
   {
     image: "/t-avt-1.png",
